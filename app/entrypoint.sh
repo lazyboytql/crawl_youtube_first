@@ -7,4 +7,4 @@ while ! nc -z $DB_HOST $DB_PORT; do
 done
 echo "PostgreSQL started"
 
-exec python main.py config.py
+exec python config.py main.py
